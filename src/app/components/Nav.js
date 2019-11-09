@@ -1,6 +1,8 @@
 import React from "react";
 import styled, { css } from "styled-components";
 
+import Button from ".Button";
+
 const Header = styled.header`
   position: fixed;
   top: 0;
@@ -73,7 +75,7 @@ const NavItem = styled.li`
   }
 `;
 
-const NavButton = styled.button`
+const NavButton = styled(Button)`
   padding: 8px 12px;
   font-size: 16px;
   font-weight: 700;
